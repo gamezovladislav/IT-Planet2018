@@ -4,13 +4,11 @@ import com.simbirsoft.itplanet.entity.PathNode;
 import com.simbirsoft.itplanet.entity.PlaygroundState;
 import com.simbirsoft.itplanet.entity.type.PlaygroundItemType;
 import com.simbirsoft.itplanet.service.InputReader;
-import sun.awt.image.PNGImageDecoder;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
-import java.util.Stack;
 
 public class PlaygroundLoadState implements PlaygroundState {
 
